@@ -5,5 +5,6 @@ function squareDigits(num) {
   for (let i = 0; i < n.length; i++) {
     result = `${result}${n[i] ** 2}`;
   }
+
   return +result;
 }
